@@ -1,0 +1,22 @@
+/* <!--
+* File: app.component.css
+* Author: Katona Valentin
+* Copyright: 2022, Katona Valentin
+* Group: Szoft II N
+* Date: 2022-01-20
+* Github: https://github.com/djvalee/
+* Licenc: GNU GPL
+--> */
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: #fff;
+}
+
+div.about {
+    font-size: small;
+    text-align: left;
+}

@@ -1,0 +1,37 @@
+ <!--
+  * File: app.component.html
+  * Author: Katona Valentin
+  * Copyright: 2022, Katona Valentin
+  * Group: Szoft II N
+  * Date: 2022-01-20
+  * Github: https://github.com/djvalee/
+  * Licenc: GNU GPL
+  --> 
+
+<h1>Testtömegindex számítás</h1>
+
+<p class="border">
+  Testtömeg(kg):<input type="text" #firstnumber>
+</p>
+
+<p class="border">
+  Testmagasság(m):<input type="text" #secondnumber>
+</p>
+
+<p class="border">
+  <button (click)="Calculate(firstnumber.value,secondnumber.value)">Számít</button>
+</p>
+
+<p class="border">
+  Eredmény: {{result}}
+</p>
+<br>
+<br>
+
+<div class="about">
+  <p>Készítette: Katona Valentin</p>
+  <p>Verzió: 0.0.1</p>
+  <p>Dátum: 2022-01-20</p>
+  <p>Osztály: Szoftverfejlesztő II/N</p>
+</div>
+
